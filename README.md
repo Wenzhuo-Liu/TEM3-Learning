@@ -6,9 +6,9 @@
 
 ## 简介 | Introduction
 
-TEM³-Learning (Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving) 是一个新颖的多模态多任务学习框架，该框架利用多模态数据同时识别驾驶员情绪，行为，交通环境和车辆行为。在ADAS公开数据集上的实验表明，该框架仅以不到6M的参数量，在所有四个任务上均达到了SOTA，同时实现了142.32 FPS的实时推理速度。
+TEM³-Learning (Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving) 是一个新颖的多模态多任务学习框架，该框架利用多模态数据同时识别驾驶员情绪，行为，交通环境和车辆行为。在ADAS公开数据集上的实验表明，该框架仅以不到6M的参数量，在所有四个任务上均达到了SOTA。
 
-TEM³-Learning (Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving) is a novel multimodal multi-task learning framework that leverages multimodal data to simultaneously recognize driver emotions, behaviors, traffic environments, and vehicle behaviors. Experiments on public ADAS datasets demonstrate that this framework achieves SOTA performance across all four tasks with less than 6M parameters while attaining a real-time inference speed of 142.32 FPS.
+TEM³-Learning (Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving) is a novel multimodal multi-task learning framework that leverages multimodal data to simultaneously recognize driver emotions, behaviors, traffic environments, and vehicle behaviors. Experiments on public ADAS datasets demonstrate that this framework achieves SOTA performance across all four tasks with less than 6M parameters.
 
 ## 环境搭建 | Environment Setup
 
