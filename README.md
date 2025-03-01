@@ -1,4 +1,4 @@
-# TEM³-Learning: Temporal-Efficient Multimodal Meta-Learning
+# TEM³-Learning: Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving
 
 <div align="center">
   <img src="framework.png" alt="TEM³-Learning Logo" width="600"/>
@@ -6,16 +6,9 @@
 
 ## 简介 | Introduction
 
-TEM³-Learning (Temporal-Efficient Multimodal Meta-Learning) 是一个创新的机器学习框架，旨在通过时间高效的多模态元学习方法解决复杂的感知和决策问题。该项目结合了时间序列分析、多模态学习和元学习的优势，为机器人和智能系统提供了一种新的学习范式。
+TEM³-Learning (Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving) 是一个新颖的多模态多任务学习框架，该框架利用多模态数据同时识别驾驶员情绪，行为，交通环境和车辆行为。在ADAS公开数据集上的实验表明，该框架仅以不到6M的参数量，在所有四个任务上均达到了SOTA，同时实现了142.32 FPS的实时推理速度。
 
-TEM³-Learning (Temporal-Efficient Multimodal Meta-Learning) is an innovative machine learning framework designed to address complex perception and decision-making problems through temporally efficient multimodal meta-learning approaches. This project combines the strengths of temporal sequence analysis, multimodal learning, and meta-learning to provide a new learning paradigm for robotics and intelligent systems.
-
-## 特点 | Features
-
-- **时间高效学习** | **Temporal-Efficient Learning**: 优化时间序列数据的处理，减少计算开销
-- **多模态融合** | **Multimodal Fusion**: 无缝集成视觉、语言、触觉等多种模态的数据
-- **元学习能力** | **Meta-Learning Capabilities**: 快速适应新任务和环境的能力
-- **机器人应用** | **Robotics Applications**: 专为机器人感知和决策设计的算法
+TEM³-Learning (Time-Efficient Multimodal Multi-Task Learning Network for Assistive Driving) is a novel multimodal multi-task learning framework that leverages multimodal data to simultaneously recognize driver emotions, behaviors, traffic environments, and vehicle behaviors. Experiments on public ADAS datasets demonstrate that this framework achieves SOTA performance across all four tasks with less than 6M parameters while attaining a real-time inference speed of 142.32 FPS.
 
 ## 环境搭建 | Environment Setup
 
@@ -30,7 +23,7 @@ TEM³-Learning (Temporal-Efficient Multimodal Meta-Learning) is an innovative ma
 1. **克隆仓库** | **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/TEM3-Learning.git
+git clone https://github.com/Wenzhuo-Liu/TEM3-Learning.git
 cd TEM3-Learning
 ```
 
@@ -137,21 +130,6 @@ TEM3-Learning/
 └── README.md                    # 项目说明
 ```
 
-## 引用 | Citation
-
-如果您在研究中使用了TEM³-Learning，请引用我们的论文：
-
-If you use TEM³-Learning in your research, please cite our paper:
-
-```bibtex
-@inproceedings{liu2025tem3,
-  title={TEM³-Learning: Temporal-Efficient Multimodal Meta-Learning for Robotic Applications},
-  author={Liu, Wenzhuo and Qiao, Yicheng and Wang, Zhen and Guo, Qiannan and Chen, Zilong and Zhou, Meihua and Li, Xinran and Wang, Letian and Li, Zhiwei and Liu, Huaping and Wang, Wenshuo},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2025}
-}
-```
-
 ## 联系方式 | Contact
 
 如有任何问题，请通过以下方式联系我们：
@@ -165,7 +143,7 @@ For any questions, please contact us at:
   
 ## 作者 | Authors
 
-- Wenzhuo Liu¹
+- Wenzhuo Liu¹, 
 - Yicheng Qiao²
 - Zhen Wang¹
 - Qiannan Guo²
